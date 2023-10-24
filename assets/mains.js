@@ -1,6 +1,6 @@
 const text = "          halloleute                 ";
 console.log(text.trim());
-// Variablen erstellen Aufgabe 1-1
+// Aufgabe 1-1
 let firstName = "Soufian";
 let lastName = "Souilm";
 let fullname = "soufiansouilm";
@@ -12,7 +12,7 @@ console.log("länge von firstname:", firstNameLength);
 
 let fullnamelenght = fullname.length;
 console.log("fullname:", fullnamelenght);
-// Variablen erstellen Aufgabe 1-2
+// Aufgabe 1-2
 const txt =
   "How inappropriate to call this planet Earth, when clearly it is Ocean.";
 const positionH = txt.indexOf("h");
@@ -23,7 +23,7 @@ console.log("Position von 'Earth':", positionEarth);
 
 const positionMoon = txt.indexOf("Moon");
 console.log("Position von 'Moon':", positionMoon);
-// Variablen erstellen Aufgabe 1-3
+// Aufgabe 1-3
 let txt2 =
   "Blue, green, grey, white, or black; smooth, ruffled, or mountainous; that ocean is not silent.";
 const positionSemicolon = txt2.indexOf(";");
