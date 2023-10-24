@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strings</title>
+  </head>
+  <body>
+    <script>
+      const A = "Susi is going to codingschool";
+      const part1 = A.slice(0, 4);
+      const part2 = A.slice(5, 7);
+      const part3 = A.slice(5);
+      const part4 = A.slice(20);
+      const part5 = A.slice(0, 4) + " " + A.slice(20);
+
+      document.write(part1 + "<br>");
+      document.write(part2 + "<br>");
+      document.write(part3 + "<br>");
+      document.write(part4 + "<br>");
+      document.write(part5 + "<br>");
+    </script>
+    <script>
+      const text = "Sam is good at codingschool";
+      const part6 = text.replace("good", "bad");
+      const part7 = text.replace("Sam", "Susi");
+      const part8 = text.replace("codingschool", "tennis");
+
+      document.write(part6 + "<br>");
+      document.write(part7 + "<br>");
+      document.write(part8 + "<br>");
+    </script>
+    <script>
+      const text3 = "Sam is going to codingschool";
+
+      const uppercaseText1 = text3.toUpperCase();
+      const lowercaseText2 = text3.toLowerCase();
+
+      document.write(uppercaseText1 + "<br>");
+      document.write(lowercaseText2 + "<br>");
+    </script>
+    <script>
+      const text3 = "Sam is going to codingschool";
+
+      const uppercaseText1 = text3.toUpperCase();
+      const lowercaseText2 = text3.toLowerCase();
+
+      document.write(uppercaseText1 + "<br>");
+      document.write(lowercaseText2 + "<br>");
+    </script>
+    <script>
+      const texta = "Sam is going to codingschool";
+      const textb = "Susi";
+      const textc = "and";
+
+      const result1 =
+        texta.slice(0, 16) + "school " + textc + "to the movie theater";
+      const result2 = texta.slice(0, 16) + "the movie theater";
+      const result3 =
+        textb + " " + textc + texta.slice(0, 4) + "are going to school";
+      const result4 =
+        textb +
+        " and " +
+        texta.slice(0, 4) +
+        "are going to gym and to the movie theater";
+
+      const result5 =
+        textb + " is going to school and " + textc + "to the movie theater";
+      document.write(result1 + "<br>");
+      document.write(result2 + "<br>");
+      document.write(result3 + "<br>");
+      document.write(result4 + "<br>");
+      document.write(result5 + "<br>");
+    </script>
+
+    <script src="./assets/mains.js"></script>
+  </body>
+</html>
